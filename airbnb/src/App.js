@@ -11,11 +11,8 @@ export default function App(){
     return(
       <Card 
           key={item.id}
-
           {...item}
-          
           // item={item}
-
           // img={item.img}
           // rating={item.stats.rating}
           // reviewcount={item.stats.reviewcount}
